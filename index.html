@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="root" class="container">
+        <div class="row mb-5">
+            <div class="bai1 col-6">
+                <h6 class="alert alert-success">Bài 1: Viết chương trình nhập ngày tháng năm, tìm ngày tháng năm của
+                    ngày
+                    tiếp theo và tìm ngày tháng
+                    năm của ngày trước đó</h6>
+                <div class="form-group">
+                    <label for="">Enter a date after 01-01-1970:</label>
+                    <input type="date" class="form-control" id="input_bai1" min="1970-01-01">
+                </div>
+                <button class="btn btn-primary mb-2">Output</button>
+                <p class="next_day bg-dark text-white p-2">Next day:</p>
+                <p class="prev_day bg-dark text-white p-2">Prev day:</p>
+            </div>
+            <div class="bai2 col-6">
+                <h6 class="alert alert-success">Bài 2: Viết chương trình nhập vào tháng, năm. Cho biết tháng đó có bao
+                    nhiêu
+                    ngày.</h6>
+                <div class="form-group">
+                    <label for="">Nhập vào tháng:</label>
+                    <input type="number" max="12" min="1" class="form-control" id="month_bai2">
+                    <label for="">Nhập vào năm:</label>
+                    <input type="text" class="form-control" id="year_bai2">
+                </div>
+                <button class="btn btn-primary mb-2">Output</button>
+                <p class="bg-dark text-white p-2">Số ngày trong tháng là:</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="bai3 col-6">
+                <h6 class="alert alert-success">Bài 3: In cách đọc số có 3 chữ số</h6>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label class="mr-2" for="">Nhập vào số có 3 chữ số:</label>
+                        <input type="number" name="" id="input_bai3" class="form-control">
+                    </div>
+                </form>
+                <button class="btn btn-primary mb-2">Output</button>
+                <p class="bg-dark text-white p-2">Output:</p>
+            </div>
+            <div class="bai4 col-6">
+                <h6 class="alert alert-success">Bài 4: Viết chương trình in tên sinh viên xa trường nhất.</h6>
+                <div class="form-group">
+                    <label>Tên sinh viên thứ nhất:</label>
+                    <input type="text" id="name_student1" class="form-control">
+                    <label>Tọa độ x của sinh viên thứ nhất:</label>
+                    <input type="text" id="toado_x_student1" class="form-control">
+                    <label>Tọa độ y của sinh viên thứ nhất:</label>
+                    <input type="text" id="toado_y_student1" class="form-control">
+
+                    <label>Tên sinh viên thứ hai:</label>
+                    <input type="text" id="name_student2" class="form-control">
+                    <label>Tọa độ x của sinh viên thứ hai:</label>
+                    <input type="text" id="toado_x_student2" class="form-control">
+                    <label>Tọa độ y của sinh viên thứ hai:</label>
+                    <input type="text" id="toado_y_student2" class="form-control">
+
+                    <label>Tên sinh viên thứ ba:</label>
+                    <input type="text" id="name_student3" class="form-control">
+                    <label>Tọa độ x của sinh viên thứ ba:</label>
+                    <input type="text" id="toado_x_student3" class="form-control">
+                    <label>Tọa độ y của sinh viên thứ ba:</label>
+                    <input type="text" id="toado_y_student3" class="form-control">
+                </div>
+                <button class="btn btn-primary mb-2">Output</button>
+                <p class="bg-dark text-white p-2">Output:</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
